@@ -1,0 +1,37 @@
+# Binaries & build files
+travelsphere
+travelsphere.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+build/
+*.test
+*.out
+
+# Config file
+conf/app.conf
+
+# Go specific
+vendor/
+
+# IDE related
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS related
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage
+coverage.out
+coverage.html
+
+# Logs file
+*.log

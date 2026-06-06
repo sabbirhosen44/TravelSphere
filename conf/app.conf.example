@@ -1,0 +1,4 @@
+appname = travelsphere
+httpport = 8080
+runmode = dev
+copyrequestbody = true
