@@ -2,3 +2,7 @@ appname = travelsphere
 httpport = 8080
 runmode = dev
 copyrequestbody = true
+
+countries_base_url = "https://api.restcountries.com/countries/v5"
+countries_api_key = ""
+trip_base_url = https://api.opentripmap.com/0.1/en/places
