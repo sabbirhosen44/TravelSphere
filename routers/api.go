@@ -8,4 +8,5 @@ import (
 
 func init() {
 	beego.Router("/api/countries", &api.CountryController{})
+	beego.Router("/api/countries/:slug", &api.CountryController{})
 }
