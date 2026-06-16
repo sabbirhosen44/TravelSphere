@@ -11,6 +11,7 @@ type Country struct {
 	FormattedPopulation string `json:"formatted_population"`
 	Currencies          string `json:"currencies"`
 	Languages           string `json:"languages"`
+	LatLng              []float64 `json:"latlng"`
 }
 
 // Attraction represents a tourist attraction from OpenTripMap.
