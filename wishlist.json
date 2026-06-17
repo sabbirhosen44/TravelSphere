@@ -1,0 +1,16 @@
+[
+  {
+    "id": "738847ed-d520-4d76-d059-ed6e040a3eb9",
+    "country_name": "Albania",
+    "note": "",
+    "status": "Planned",
+    "created_at": "2026-06-17T08:12:53.2658428+06:00"
+  },
+  {
+    "id": "e5489777-5a2a-1ad7-e326-64a7be251951",
+    "country_name": "Algeria",
+    "note": "",
+    "status": "Visited",
+    "created_at": "2026-06-17T08:16:36.3188165+06:00"
+  }
+]

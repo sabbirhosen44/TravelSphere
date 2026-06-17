@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // ----------------------------------------------------
-    // 1. HOME PAGE AUTOCOMPLETE SEARCH SUGGESTIONS
-    // ----------------------------------------------------
+    // HOME PAGE AUTOCOMPLETE SEARCH SUGGESTIONS
+
     const homeSearch = document.getElementById('home-search');
     const homeSpinner = document.getElementById('home-search-spinner');
     const homeResults = document.getElementById('home-search-results');
@@ -59,9 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // ----------------------------------------------------
-    // 2. COUNTRY EXPLORER (LIVE FILTER, SEARCH & PAGINATION)
-    // ----------------------------------------------------
+
+    // COUNTRY EXPLORER (LIVE FILTER, SEARCH & PAGINATION)
+
     const explorerSearch = document.getElementById('explorer-search');
     const explorerRegion = document.getElementById('explorer-region');
     const explorerSpinner = document.getElementById('explorer-spinner');
@@ -199,9 +198,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // ----------------------------------------------------
-    // 3. DESTINATION DETAILS (ADD TO WISHLIST)
-    // ----------------------------------------------------
+
+    // DESTINATION DETAILS (ADD TO WISHLIST)
+
     const btnAddWishlist = document.getElementById('btn-add-wishlist');
     const wishlistFeedback = document.getElementById('wishlist-feedback');
 
@@ -255,9 +254,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // ----------------------------------------------------
-    // 4. WISHLIST MANAGEMENT (INLINE UPDATE & DELETE)
-    // ----------------------------------------------------
+
+    // WISHLIST MANAGEMENT (INLINE UPDATE & DELETE)
+
     const wishlistRows = document.getElementById('wishlist-rows');
     const wishlistAlert = document.getElementById('wishlist-alert');
 
